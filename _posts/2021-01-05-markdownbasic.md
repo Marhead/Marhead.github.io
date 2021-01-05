@@ -7,7 +7,7 @@ categories:
 tags:
     - Markdown
     - Basic
-date: 2021-01-05 18:45:00
+last_modified_at: 2021-01-05
 ---
 
 다양한 문서에서 활용되는 마크다운(Markdown)에 관하여 정리한 글이다.
