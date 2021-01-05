@@ -1,6 +1,6 @@
 ---
 title: "Blog Open"
-excerpt: "이거는 뭐하는 거지???"
+excerpt: "처음 올리는 블로그 글"
 
 categories:
     - Essay
