@@ -182,13 +182,9 @@ int main(){
     [title](link)
   ```
   [Google](https://google.com, "google link")
-
 ## 9. 이미지
 ---
 ![Alt text](../assets/img/profile/profilepic.jpg)
-
-<img src="/assets/img/profile/profilepic.jpg" width = "500px" height = "300px" title = "px 크기 설정" alt="pizzaplanetalien"></img>
-
 ## 정리
 ---
 마크 다운은, 기본 문법만 알고 있으면 어느 텍스트 편집기 에서든 손쉽게 작성할 수 있다는 장점이 있다. 간단하지만 강력한 문서 구조 능력 덕에 글을 짜임새 있게 보이게 만들 뿐 아니라 구조적인 사고를 할 수 있게 만들 수도 있다. 많은 공용 참고 문서등에서 활용 되기도 하고 간단한 개인용 포스트 작성에도 활용 가능하니, 한번 쯤 연습해 보길 바란다.
