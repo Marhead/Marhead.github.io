@@ -184,6 +184,9 @@ int main(){
   [Google](https://google.com, "google link")
 ## 9. 이미지
 ---
+```markdown
+![Alt text](파일 위치 명)
+```
 ![Alt text](../assets/img/profile/profilepic.jpg)
 ## 정리
 ---
