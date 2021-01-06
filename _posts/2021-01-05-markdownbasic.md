@@ -5,7 +5,7 @@ excerpt: "Markdown 기초 사용법 정리"
 categories:
     - Language
 tags:
-    - Markdown
+    - Markup
     - Basic
 last_modified_at: 2021-01-05
 ---
