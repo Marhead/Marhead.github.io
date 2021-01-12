@@ -54,7 +54,7 @@ baseurl: ''
 timezone: Asia/Seoul
 
 google_analytics:
-  id: ''          # Fill with your Google Analytics ID
+  id: 'G-NGK9PBGK7E'          # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
@@ -68,7 +68,9 @@ disqus:
   comments: true  # boolean type, the global switch for posts comments.
   shortname: 'hoonesden-tech'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
+math: true
 
+mermaid: true
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
