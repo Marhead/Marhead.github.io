@@ -5,9 +5,9 @@ excerpt: "Markdown 기초 사용법 정리"
 categories:
     - Language
 tags:
-    - Markup
-    - Basic
-last_modified_at: 2021-01-05
+    - markup
+    - basic
+date: 2021-01-05 12:00:00 +0900
 ---
 
 다양한 문서에서 활용되는 마크다운(Markdown)에 관하여 정리한 글이다.
