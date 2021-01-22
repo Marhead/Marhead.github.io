@@ -1,5 +1,5 @@
 ---
-title: About Marhead
+title: About
 icon: fas fa-info
 order: 4
 
@@ -10,11 +10,15 @@ order: 4
 # MIT License
 ---
 
-세상을 느끼고 알아가고 싶은 97년생 지식의 모험가 입니다.
+# About Marhead! 🙋‍♂️
 
-수학과 컴퓨터를 잘하고 싶은 🐷입니다.
+세상을 느끼고 알아가고 싶은 삶의 모험가 입니다.
+
+수학과 컴퓨터를 이용하여 세상을 탐구 중인 생각하는 🐷입니다.
 
 수원대학교 컴퓨터 / 수학 전공 중
+
+개발 잘 하고 싶다...
 
 Studying on
 - Java-Spring
