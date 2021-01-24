@@ -11,6 +11,7 @@ tags:
     - python
 
 date: 2021-01-19 15:00:00 +0900
+math: true
 ---
 # 퍼셉트론 알고리즘(Perceptron Algorithm)
 ---
