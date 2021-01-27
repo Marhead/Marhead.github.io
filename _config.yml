@@ -212,3 +212,4 @@ jekyll_admin:
     - staticfiles
     - datafiles
     - configuration
+  homepage: "posts"
