@@ -12,9 +12,9 @@ title: Marhead's Den                          # the main title
 tagline: 마르헤드의 컴퓨터 / 수학 / 과학 중심 개인 블로그  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  컴퓨터 / 수학 전공생이 운영하는 개인 블로그입니다.
+  수학과 컴퓨터 관련 리뷰 뿐 아니라 가볍게 사용할만한 프로그램들 리뷰 작성합니다.
+  음악, 영화, 스케이트 보드, 철학에 대해서도 이후 리뷰...
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
 url: 'https://marhead.github.io/'
