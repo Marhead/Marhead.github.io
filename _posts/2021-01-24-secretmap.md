@@ -35,15 +35,43 @@ date: 2021-01-24 16:00:00 +0900
 
 ## ✏️문제 풀이
 ___
-- 문제에서 주어진 내적을 구하는 공식을 그대로 사용.
-  - 각 배열 a, b를 첫번째 공간부터 마지막 공간까지 탐색.
+- C++ 사용 라이브러리
+  - ```<bitset>``` 이란?  
+  비트(bit)를 저장, 연산하고 다루는 클래스이다. 부울형 원소들로 이루어진 배열을 조작한다. 배열의 한 자리당 할당된 단일 원소들의 공간 할당에 특화되어있다. 해당 라이브러리에 대해서는 별도의 포스트에서 심층적으로 다루겠다.
+- Python 사용 함수
 
 ## ⌨️풀이 코드
 ---
 - C++ 코드
 
 ```cpp
+#include <string>
+#include <vector>
+#include <bitset>
 
+using namespace std;
+
+vector<string> solution(int n, vector<int> arr1, vector<int> arr2) {
+    vector<string> answer;
+
+    string temp;
+    string tempboard;
+    int startpoint = 0;
+    for (int i = 0; i < n; i++) {
+        bitset<16> temp1 = arr1[i];
+        bitset<16> temp2 = arr2[i];
+        bitset<16> temp_bit = temp1 | temp2;
+
+        temp = temp_bit.to_string();
+        tempboard = "";
+        startpoint = 16-n;
+        for (int j = startpoint; j < 16; j++) {
+            temp[j] == '1' ? tempboard += '#' : tempboard += " ";
+        }
+        answer.push_back(tempboard);
+    }
+    return answer;
+}
 ```
 
 - Python 코드
