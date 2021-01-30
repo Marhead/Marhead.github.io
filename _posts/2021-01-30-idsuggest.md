@@ -36,9 +36,64 @@ date: 2021-01-30 02:00:00 +0900
 
 ## ✏️문제 풀이
 ___
+파이썬의 다양한 내장 문자열 함수들을 써보기 좋은 문제이다. 문자열 조작에 자주 사용되는 몇몇 특징적인 파이썬 내장 함수에 대해 간략히 소개해보도록 하겠다.
 
+```lower()```
+: 문자열을 모두 소문자로 만드는 함수이다.
+
+```maketrans()``` 와 ```translate()```
+: 번역할 문자열 보드를 만들고, 보드를 바탕으로 해당되는 문자열을 바꾸는 내장함수이다. 처음 보는 내장함수라 사용에 낯설었지만, 위키를 적극 활용하며 사용해 나갔다. 아래는 사용 예문이다.
+```python
+board = str.maketrans("바뀔 문자열","바뀐 문자열")
+some_str = some_str.translate(board)
+```
+
+```find(매개변수)```
+: 문자열 속에서 주어진 매개변수의 위치값을 반환하는 내장함수.
+
+```replace(매개변수1, 매개변수2)```
+: 첫번째 매개변수를 두번째 매개변수로 바꿔주는 내장함수.
+```strip(매개변수)```
+: 문자열 양 끝의 매개변수와 같은 값을 찾아 삭제해주는 내장함수. 변형으로 ```lstrip()```과 ```rstrip()```이 있다.
 ## ⌨️풀이 코드
 ---
+```python
+def solution(new_id):
+    answer = new_id
+    # 5번 조건
+    if len(answer) == 0:
+        answer += 'a'
+
+    # 1번 조건
+    answer = answer.lower()
+
+    # 2번 조건
+    table = str.maketrans("~!@#$%^&*()=+[{]}:?,<>/","                       ")
+    answer = answer.translate(table)
+    answer = "".join(answer.split())
+
+    # 3번 조건
+    while True:
+        if answer.find("..") != -1:
+            answer = answer.replace('..','.')
+        else:
+            break
+
+    # 4번 조건
+    while answer[0] == '.' or answer[-1] == '.':
+        answer = answer.strip('.')
+        if len(answer) == 0:
+            answer += 'a'
+    
+    # 6번 조건
+    if len(answer) > 15:
+        answer = answer[:15]
+
+    # 7번 조건
+    while len(answer) <= 2:
+        answer += answer[-1]
+    return answer
+```
 
 -----
 출처 : [프로그래머스 2021 카카오 신규 아이디 추천 문제](https://programmers.co.kr/learn/courses/30/lessons/72410)
