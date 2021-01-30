@@ -43,6 +43,7 @@ date: 2021-01-30 02:00:00 +0900
 
 ```maketrans()``` 와 ```translate()```
 : 번역할 문자열 보드를 만들고, 보드를 바탕으로 해당되는 문자열을 바꾸는 내장함수이다. 처음 보는 내장함수라 사용에 낯설었지만, 위키를 적극 활용하며 사용해 나갔다. 아래는 사용 예문이다.
+
 ```python
 board = str.maketrans("바뀔 문자열","바뀐 문자열")
 some_str = some_str.translate(board)
