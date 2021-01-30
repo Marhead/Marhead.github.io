@@ -7,6 +7,8 @@ categories:
     - Kakao
 tags:
     - p.s
+    - programmers
+    - kakao
     - cpp
     - python
 date: 2021-01-24 16:00:00 +0900
