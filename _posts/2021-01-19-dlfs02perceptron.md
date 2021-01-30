@@ -3,8 +3,7 @@ title: "📝[DLfS]]-02퍼셉트론"
 excerpt: "DeepLearningfromScratch Chapter 02 review"
 
 categories:
-    - Programming
-    - ML
+    - Machine-Learning
     - DeepLearningfromScratch
 tags:
     - machinelearning

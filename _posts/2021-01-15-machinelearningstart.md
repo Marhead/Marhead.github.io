@@ -3,8 +3,7 @@ title: "✍️머신러닝(Machine-Learning) 시작하며"
 excerpt: "머신러닝을 공부하고 정리한 글을 올릴 포스트들에 대한 서문"
 
 categories:
-    - Programming
-    - ML
+    - Machine-Learning
 tags:
     - machinelearning
     - python
