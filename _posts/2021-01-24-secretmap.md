@@ -4,7 +4,6 @@ excerpt: "프로그래머스 2018 카카오 블라인드 [비밀지도] 문제 �
 
 categories:
     - P.S
-    - Programmers
     - Kakao
 tags:
     - p.s
