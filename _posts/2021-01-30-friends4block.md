@@ -4,7 +4,6 @@ excerpt: "프로그래머스 2018 카카오 블라인드 [프렌즈 4 블록] �
 
 categories:
     - P.S
-    - Programmers
     - Kakao
 tags:
     - p.s

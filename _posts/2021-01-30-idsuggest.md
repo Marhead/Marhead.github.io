@@ -4,7 +4,6 @@ excerpt: "프로그래머스 2021 카카오 블라인드 [신규 아이디 추�
 
 categories:
     - P.S
-    - Programmers
     - Kakao
 tags:
     - p.s
