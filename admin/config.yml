@@ -1,0 +1,5 @@
+backend:
+  name: github
+  repo: Marhead/Marhead.github.io
+
+media_folder: "assets/img"
