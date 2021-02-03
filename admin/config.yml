@@ -13,4 +13,5 @@ collections:
       file: "_data/site.yml"
       fields:
         - label: "Tel"
-          name: ""
+          name: "tel"
+          width: "string"
