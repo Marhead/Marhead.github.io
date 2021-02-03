@@ -4,6 +4,7 @@ excerpt: "처음 올리는 블로그 글"
 
 categories:
     - Essay
+    - Review_My_Self
 tags:
     - essay
 date: 2021-01-05 00:00:00 +0900
