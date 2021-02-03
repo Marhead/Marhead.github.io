@@ -17,4 +17,3 @@
 - JPA (Java Persistence API)
 - HIBERNATE
 - apache
-
