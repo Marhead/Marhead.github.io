@@ -1,5 +1,5 @@
 ---
-title: "✍️Blog Open"
+title: "💼Blog Open"
 excerpt: "처음 올리는 블로그 글"
 
 categories:
