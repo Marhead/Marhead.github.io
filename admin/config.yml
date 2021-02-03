@@ -5,9 +5,12 @@ backend:
 media_folder: "assets/img"
 
 collections:
-  name: "website-settings"
-  label: "Website settings"
-  files:
+  - name: "website-settings"
     label: "Website settings"
-    name: "site"
-    file: "_data/site.yml"
+    files:
+    - label: "Website settings"
+      name: "site"
+      file: "_data/site.yml"
+      fields:
+        - label: "Tel"
+          name: ""
