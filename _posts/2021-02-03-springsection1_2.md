@@ -1,5 +1,5 @@
 ---
-title: "📓[Spring]-Spring section 01-02"
+title: "📓[Spring]-스프링 학습 01-02"
 excerpt: "인프런 김영한 강사 자바 스프링 강의 section 1 후반부"
 
 categories:
@@ -64,4 +64,20 @@ date: 2021-02-03 07:00:00 +0900
     }
   }
   ```
-스프링 부트가 제공하는 프론트 템플릿 라이브러리 ```Thymeleaf```의 기본 작동 방식을 보여준다. 위의 java 코드에서 ```@GetMapping```을 통해 hello html을 잡아 불러 오고, 불러온 hello html 내부의
+스프링 부트가 제공하는 프론트 템플릿 라이브러리 ```Thymeleaf```의 기본 작동 방식을 보여준다. 위의 java 코드에서 ```@GetMapping```을 통해 hello html을 잡아 불러 오고, ```hello``` 메서드가 작업을 한다. 작업을 마친 이후, ```return```을 수행한다. ```return``` 작업을 수행할 때, ```resurces/templates/```의 타겟 파일 이름과 같아야한다.
+그림으로 요약하면 다음과 같다.
+
+![](../../assets/img/spring/thymeleafmove.PNG)
+
+## Build & Execute!
+
+콘솔을 통해 ```Gradle```을 실행시켜 서비스를 빌드하고 작동시키는 법
+
+**Windows 환경**
+- Console로 디렉터리 이동
+- ```$ ./gradlew```
+- ```$ .\gradlew.bat```
+- ```$ .\gradlew build```
+- ```$ cd build```
+- ```$ cd libs```
+- ```$ java -jar filename.jar```
