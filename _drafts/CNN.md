@@ -15,8 +15,6 @@ $$ Output size = {input size - filtersize +(2 * padding) \over stride} + 1 $$
 
 filter = perceptron의 input의 weight값으로 연산하여 perceptron의 input으로 작용
 
-
-
 ## Pooling
 
 Image size를 줄이기 위해 사용, 혹은 fully-connect연산을 줄이기 위해서도 사용
@@ -63,8 +61,6 @@ layer 4, 5단계를 더 쌓았더니 정확도가 떨어짐. == 효율적으로 
 2. torchvision.datasets.ImageFolder 으로 불러오기
 3. transforms적용하여 저장하기 origin_data -> train_data
 
-
-
 # Advanced CNN
 
 going deeper with convolutions
@@ -87,5 +83,36 @@ MLP들 또한 convolution의 필터들과 같이 역전파를 통해 학습, 그
 
 마지막에는 Fully-Connected Layer가 아니라, Global Average Pooling을 넣음. -> 오버피팅 방지 
 
+
+
+**Inception**
+
+
+
+**1\*1 convolution**
+
+Hebbian principle에 의해 차원을 줄일 수 있다.
+
+여러개의 feature-map으로부터 비슷한 성질을 갖는 것들을 묶어낼 수 있고, feature-map의 숫자를 줄일 수 있으며, 연산량도 줄일수 있다.
+
+
+
+kalming normalization은 우리가 어떤 활성화함수를 쓰느냐에따라 웨이트를 초기화를 잘 해줄 수 있다. 카밍 히?
+
+# VGGNET
+
 VGG Network 직접 만들기
+
+- VGG(Visual Geometry Group)에서 만든 Network
+- VGG11 ~ VGG19 3\*224*224
+- 종류 :  VGG-F,VGG-M,VGG-S,LeNet-5, AlexNet
+- 옥스포드 대학의 연구팀 VGG에 의해 개발된 모델, 2014년 이미지넷 이미지 인식 대회에서 준우승 모델.
+
+네트워크의 깊이를 깊게 만드는 것이 성능에 어떤 영향을 미치는지를 확인하고자 한 것.
+
+컨볼루션 필터 커널의 사이즈는 3 * 3으로 고정했다.
+
+# ResNet
+
+basic-block bottlenect-block
 

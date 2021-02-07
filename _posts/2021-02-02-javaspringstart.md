@@ -19,9 +19,9 @@ date: 2021-02-02 21:00:00 +0900
 다음은 참고 학습 자료들 이다.
 
 ## Spring Web
-- Inflearn의 *김영한* 강사님
-  - [스프링 입문](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard) 영상
-  - [Youtube](https://www.youtube.com/playlist?list=PLumVmq_uRGHgBrimIp2-7MCnoPUskVMnd)
+  - Inflearn의 *김영한* 강사님
+    - [스프링 입문](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard) 영상
+    - [Youtube](https://www.youtube.com/playlist?list=PLumVmq_uRGHgBrimIp2-7MCnoPUskVMnd)
 ## Spring-Batch
   - [Fwantastic](https://www.fwantastic.com/p/spring-batch.html)
   - [Yun Blog](https://cheese10yun.github.io/spring-batch-basic/)
