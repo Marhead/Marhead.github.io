@@ -1,14 +1,28 @@
-@Controller : 컨트롤러 선언
+---
+title: "📓[Spring]-스프링 학습 Annotation"
+excerpt: "Spring 내부 Annotation 내용 학습"
 
-@GetMapping : 매개변수 불러오기
+categories:
+    - Spring
+    - Tutorial
+tags:
+    - frameworks
+    - java
+    - spring
+date: 2021-02-03 05:00:00 +0900
+---
 
-@Bean : 
+```@Controller``` : 컨트롤러 선언
 
-@RequestParam : 입력 매개변수
+```@GetMapping``` : 매개변수 불러오기
 
-@ResponseBody : html <body>부분에 직접 데이터를 넣겠다.
+```@Bean``` : 
 
-@Test : 테스트 케이스 작성할 때 사용
+```@RequestParam``` : 입력 매개변수
+
+```@ResponseBody``` : html <body>부분에 직접 데이터를 넣겠다.
+
+```@Test``` : 테스트 케이스 작성할 때 사용
 
 xml방식 = 태그를 두번 해줘야함 -> 불편함
 

@@ -3,9 +3,9 @@ title: "🤔log란 무엇일까?"
 excerpt: "IT주변 용어/상식/정보 정리"
 
 categories:
-    - Memo
+    - Miscellaneous
 tags:
-    - 설명
+    - miscellaneous
 date: 2021-02-03 17:00:00 +0900
 ---
 

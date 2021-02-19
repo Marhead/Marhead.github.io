@@ -3,10 +3,10 @@ title: "💻Markdown 사용법"
 excerpt: "Markdown 기초 사용법 정리"
 
 categories:
-    - Language
+    - Miscellaneous
 tags:
     - markup
-    - basic
+    - miscellaneous
 date: 2021-01-05 12:00:00 +0900
 ---
 
