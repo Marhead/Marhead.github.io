@@ -1,6 +1,6 @@
 ---
 title: "📝[DLfS]-02퍼셉트론"
-excerpt: "바닥부터시작하는딥러닝 Chapter 02 review"
+excerpt: "밑바닥부터 시작하는 딥러닝 Chapter 02 review"
 
 categories:
     - Machine-Learning
