@@ -3,8 +3,8 @@ title: "📓[Spring]-스프링 학습 01-02"
 excerpt: "인프런 김영한 강사 자바 스프링 강의 section 1 후반부"
 
 categories:
+    - Java
     - Spring
-    - Tutorial
 tags:
     - frameworks
     - java

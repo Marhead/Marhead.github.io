@@ -3,6 +3,7 @@ title: "💼[Spring]-Spring 시작"
 excerpt: "인프런 김영한 강사 자바 스프링 강의"
 
 categories:
+    - Java
     - Spring
 tags:
     - frameworks
