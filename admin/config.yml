@@ -1,0 +1,12 @@
+backend:
+  name: github
+  repo: Marhead/Marhead.github.io
+
+media_folder: "assets/img"
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    fields:
+      - { name: Title }
